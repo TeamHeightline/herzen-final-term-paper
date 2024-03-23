@@ -1,28 +1,29 @@
 "use client"
 
 import {FormEvent, useState} from "react";
+import {useAppDispatch, useAppSelector} from "@/app/store";
+import {addMessage} from "@/app/(home)/store";
+import {detoxifyThunk} from "@/app/(home)/store/async-actions";
 
-
-const initialMessages = [
-    {text: "Привет! Как дела?", isCurrentUser: false},
-    {text: "Все хорошо, спасибо! А у тебя?", isCurrentUser: true},
-];
 
 // Стиль для сообщений текущего пользователя
 const currentUserStyle = "ml-auto bg-blue-500 text-white";
 // Стиль для сообщений собеседника
 const otherUserStyle = "mr-auto bg-gray-300 text-black";
 
-export default function Home() {
-    const [messages, setMessages] = useState(initialMessages);
+export default function Page() {
+    const dispatch = useAppDispatch();
     const [messageText, setMessageText] = useState("");
+
+    const {messages, pending} = useAppSelector(state => state.detoxify);
 
     function onSendMessage(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
         if (messageText.trim() === "") {
             return;
         }
-        setMessages([...messages, {text: messageText, isCurrentUser: true}]);
+        dispatch(addMessage({message: messageText, isCurrentUser: true}))
+        dispatch(detoxifyThunk(messageText));
         setMessageText("");
     }
 
@@ -33,7 +34,7 @@ export default function Home() {
                 {messages.map((message, index) => (
                     <div key={index}
                          className={`max-w-lg p-2 rounded-lg my-1 ${message.isCurrentUser ? currentUserStyle : otherUserStyle}`}>
-                        {message.text}
+                        {message.message}
                     </div>
                 ))}
             </div>
