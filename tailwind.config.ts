@@ -9,8 +9,9 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                'yandex-black': "#21201FFF"
-            }
+                'yandex-black': "#21201FFF",
+                'yandex-blue': "#A6E9FC"
+            },
         },
     },
     plugins: [],
