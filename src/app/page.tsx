@@ -5,7 +5,7 @@ export default function Home() {
     <main className={'scroller flex w-screen flex-col items-center'}>
       <div className={'mt-5 max-w-3xl overflow-x-auto'}>
         <h1 className={'text-center'}>
-          Веб-портфолио по дисциплине "Анализ данных и основы Data science"
+          Веб-портфолио по дисциплине "Анализ данных и основы Data science" ___1
         </h1>
         <div className={'flex justify-end'}>
           <p>Чирцов Тимофей Александрович</p>
