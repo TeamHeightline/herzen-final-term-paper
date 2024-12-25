@@ -8,8 +8,12 @@ export function Theme4() {
         3 семестр. <br /> Тема № 4 Числовые характеристики вариационных рядов
       </h2>
 
-      <Task1 />
-      <Task3 />
+      <section id={'task-1'}>
+        <Task1 />
+      </section>
+      <section id={'task-2'}>
+        <Task3 />
+      </section>
     </>
   );
 }
