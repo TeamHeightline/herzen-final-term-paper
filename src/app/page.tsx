@@ -13,6 +13,7 @@ export default function Home() {
         <div className={'flex justify-end'}>
           <p>Чирцов Тимофей Александрович</p>
         </div>
+
         <BasicsOfDataScience />
       </div>
     </main>
