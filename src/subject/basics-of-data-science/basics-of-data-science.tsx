@@ -51,13 +51,6 @@ export function BasicsOfDataScience() {
         width="100%"
         height="700px"
       />
-      <h2 id={'lr1'}>Лабораторная работа №1 (iframe)</h2>
-      <iframe
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR1.pdf"
-        width="800"
-        height="600"
-      />
-
       <h2 id={'lr2'}>Лабораторная работа №2</h2>
       <aside>
         Цель: построить дискретные и интервальные вариационные ряды и их графические изображения
