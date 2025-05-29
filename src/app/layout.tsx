@@ -29,7 +29,7 @@ export default function RootLayout({
         <main className={'scroller flex w-screen flex-col items-center'}>
           <Header />
 
-          <div className={'max-w-4xl overflow-x-auto pt-20'}>{children}</div>
+          <div className={'w-full max-w-4xl overflow-x-auto pt-20'}>{children}</div>
         </main>
       </body>
     </html>

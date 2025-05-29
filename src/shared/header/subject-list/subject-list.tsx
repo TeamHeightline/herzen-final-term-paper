@@ -27,7 +27,7 @@ export function SubjectList() {
             href="/year-4/basics-of-data-science"
             className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
           >
-            Анализ данных и&nbsp;основы Data&nbsp;Science
+            Анализ данных и основы Data Science
           </MenuItem>
           <MenuItem
             as={Link}
@@ -35,6 +35,13 @@ export function SubjectList() {
             className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
           >
             IT рекрутмент
+          </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/practice-7-sem"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Практика за 7 семестр
           </MenuItem>
         </MenuItems>
       </Menu>
