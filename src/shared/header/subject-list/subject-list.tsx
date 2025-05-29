@@ -64,6 +64,13 @@ export function SubjectList() {
           >
             Английский
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/info-ingeneering"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Инженерия знаний
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
