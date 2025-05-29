@@ -17,15 +17,22 @@ export function SubjectList() {
         <MenuItems className="absolute left-0 mt-2 w-72 origin-top-left rounded-lg border-none bg-gray-700 py-2 focus:outline-none">
           <MenuItem
             as={Link}
+            href="/year-4"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            4 семестр
+          </MenuItem>
+          <MenuItem
+            as={Link}
             href="/year-4/basics-of-data-science"
-            className={'block px-4 py-2 hover:bg-gray-600 hover:text-white'}
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
           >
             Анализ данных и&nbsp;основы Data&nbsp;Science
           </MenuItem>
           <MenuItem
             as={Link}
             href="/year-4/it-recruitment"
-            className={'block px-4 py-2 hover:bg-gray-600 hover:text-white'}
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
           >
             IT рекрутмент
           </MenuItem>
