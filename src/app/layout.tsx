@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import { Header } from '@/shared/header';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -24,7 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <main className={'scroller flex w-screen flex-col items-center'}>
+          <Header />
+
+          <div className={'max-w-4xl overflow-x-auto pt-20'}>{children}</div>
+        </main>
+      </body>
     </html>
   );
 }

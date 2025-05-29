@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { SubjectList } from '@/shared/header/subject-list/subject-list';
 
 export function Header() {
   return (
@@ -29,6 +30,7 @@ export function Header() {
             >
               Предметы
             </a>
+            <SubjectList />
             <a
               className={
                 'text-body w-max border-b-[3px] border-transparent font-medium leading-relaxed text-[--c-text-primary] no-underline transition-[border] hover:border-sky-500'
