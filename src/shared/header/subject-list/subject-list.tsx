@@ -43,6 +43,13 @@ export function SubjectList() {
           >
             Практика за 7 семестр
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/reserch-project"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Научно-исследовательский проект
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
