@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function Header() {
   return (
     <div
@@ -8,23 +10,30 @@ export function Header() {
       <div
         className={'mx-auto flex h-[72px] w-full max-w-screen-xl items-center justify-between px-4'}
       >
-        <div
-          className={
-            'font-bold leading-relaxed text-lg text-white w-80'
-          }
-        >
-          Чирцов Тимофей
-        </div>
+        <div className={'w-80 text-lg font-bold leading-relaxed text-white'}>Чирцов Тимофей</div>
 
         <div className={'hidden w-full items-center md:flex'}>
-          <div className={'flex flex-row flex-1 gap-9'}>
-            <a className={'no-underline leading-relaxed text-body text-[--c-text-primary] w-max transition-[border] border-b-[3px] hover:border-sky-500 border-transparent font-medium'}>
+          <div className={'flex flex-1 flex-row gap-9'}>
+            <Link
+              href={'/about-me'}
+              className={
+                'text-body w-max border-b-[3px] border-transparent font-medium leading-relaxed text-[--c-text-primary] no-underline transition-[border] hover:border-sky-500'
+              }
+            >
               Обо мне
-            </a>
-            <a className={'no-underline leading-relaxed text-body text-[--c-text-primary] w-max transition-[border] border-b-[3px] hover:border-sky-500 border-transparent font-medium'}>
+            </Link>
+            <a
+              className={
+                'text-body w-max border-b-[3px] border-transparent font-medium leading-relaxed text-[--c-text-primary] no-underline transition-[border] hover:border-sky-500'
+              }
+            >
               Предметы
             </a>
-            <a className={'no-underline leading-relaxed text-body text-[--c-text-primary] w-max transition-[border] border-b-[3px] hover:border-sky-500 border-transparent font-medium'}>
+            <a
+              className={
+                'text-body w-max border-b-[3px] border-transparent font-medium leading-relaxed text-[--c-text-primary] no-underline transition-[border] hover:border-sky-500'
+              }
+            >
               Достижения
             </a>
           </div>
