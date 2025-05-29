@@ -50,6 +50,13 @@ export function SubjectList() {
           >
             Научно-исследовательский проект
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/specification"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Языки написания спецификаций
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
