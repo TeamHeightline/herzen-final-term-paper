@@ -71,6 +71,13 @@ export function SubjectList() {
           >
             Инженерия знаний
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/engineering-calculations"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Информационные средства и технологии инженерных расчетов
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
