@@ -47,7 +47,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR1.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR1.pdf"
         width="100%"
         height="700px"
       />
@@ -57,7 +57,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR2.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR2.pdf"
         width="100%"
         height="700px"
       />
@@ -69,7 +69,7 @@ export function BasicsOfDataScience() {
 
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR3.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR3.pdf"
         width="100%"
         height="700px"
       />
@@ -81,7 +81,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR3P2.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR3P2.pdf"
         width="100%"
         height="700px"
       />
@@ -89,7 +89,7 @@ export function BasicsOfDataScience() {
       <aside>Цель: проверить данные на соответствие нормальному закону распределения</aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR4.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR4.pdf"
         width="100%"
         height="700px"
       />
@@ -100,7 +100,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR5.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR5.pdf"
         width="100%"
         height="700px"
       />
@@ -115,7 +115,7 @@ export function BasicsOfDataScience() {
 
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR6P1.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR6P1.pdf"
         width="100%"
         height="700px"
       />
@@ -128,7 +128,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR6P2.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR6P2.pdf"
         width="100%"
         height="700px"
       />
@@ -141,7 +141,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR6P3.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR6P3.pdf"
         width="100%"
         height="700px"
       />
@@ -155,7 +155,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR7P1.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR7P1.pdf"
         width="100%"
         height="700px"
       />
@@ -168,7 +168,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR7P2.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR7P2.pdf"
         width="100%"
         height="700px"
       />
@@ -181,7 +181,7 @@ export function BasicsOfDataScience() {
       </aside>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/data-analysis-and-ds/LR7P3.pdf"
+        src="/herzen-final-term-paper/files/year-4/data-analysis-and-ds/LR7P3.pdf"
         width="100%"
         height="700px"
       />
