@@ -57,6 +57,13 @@ export function SubjectList() {
           >
             Языки написания спецификаций
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/english"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Английский
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
