@@ -7,7 +7,7 @@ export default function AboutMe() {
         <h3>StudyWays</h3>
         <div>
           Разработал платформу с нуля, был единственным разработчиком на проекте.
-          <ul className={'ml-5 list-disc marker:text-rose-500'}>
+          <ul className={'ml-5 list-disc marker:text-sky-500'}>
             <li>
               Проект получил грант по программе стратегического академического лидерства
               «Приоритет-2030»
@@ -23,7 +23,7 @@ export default function AboutMe() {
         <div>
           Был ведущим фулстек разработчиком. Занимался разработкой системы лабораторного мониторинга
           водно-химического режима для АЭС.
-          <ul className={'ml-5 list-disc marker:text-rose-500'}>
+          <ul className={'ml-5 list-disc marker:text-sky-500'}>
             <li>
               Реализовал ключевые модули ввода лабораторных измерений и анализа результата по
               специальным методикам.
@@ -37,7 +37,7 @@ export default function AboutMe() {
         <h3>СБЕР</h3>
         <div>
           Являюсь ведущим фронтенд разработчиком инкассации
-          <ul className={'ml-5 list-disc marker:text-rose-500'}>
+          <ul className={'ml-5 list-disc marker:text-sky-500'}>
             <li>Произвел миграцию системы голосовой связи инкассации на систему Сбер Контакт</li>
             <li>разработал систему управления настройками мобильных приложений инкассаторов</li>
             <li>
