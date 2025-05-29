@@ -23,13 +23,6 @@ export function Header() {
             >
               Обо мне
             </Link>
-            <a
-              className={
-                'text-body w-max border-b-[3px] border-transparent font-medium leading-relaxed text-[--c-text-primary] no-underline transition-[border] hover:border-sky-500'
-              }
-            >
-              Предметы
-            </a>
             <SubjectList />
             <a
               className={
