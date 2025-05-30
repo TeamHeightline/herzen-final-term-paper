@@ -23,6 +23,7 @@ export function SubjectList() {
     { href: '/year-4/social-questions', title: 'Соц. и проф. вопросы информатики и ИТ' },
     { href: '/year-3', title: '3 курс' },
     { href: '/year-3/business', title: 'Бизнес информатика' },
+    { href: '/year-3/info-protection', title: 'Защита информации' },
   ];
 
   return (
