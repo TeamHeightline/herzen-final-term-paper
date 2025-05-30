@@ -106,6 +106,13 @@ export function SubjectList() {
           >
             Программирование
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/social-questions"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Социальные и профессиональные вопросы информатики и ИТ
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
