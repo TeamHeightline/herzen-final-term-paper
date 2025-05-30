@@ -22,7 +22,7 @@ export default function Year4() {
   ];
   return (
     <>
-      <h1 className={'text-center'}>Предметы в 4 семестре</h1>
+      <h1 className={'text-center'}>Предметы 4 курса</h1>
       <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {subjects.map(({ href, title }) => (
           <Link
