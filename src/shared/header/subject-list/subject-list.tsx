@@ -38,6 +38,65 @@ export function SubjectList() {
     { href: '/year-3/pro-translate', title: 'Профессиональный перевод научных текстов' },
     { href: '/year-3/networks', title: 'Сетевые технологии' },
   ];
+  const year2Subjects = [
+    { href: '/year-2', title: '2 курс' },
+    {
+      href: 'data-analysis',
+      title: 'Анализ данных',
+    },
+    {
+      href: 'db',
+      title: 'Базы данных',
+    },
+    {
+      href: 'web',
+      title: 'Веб-проектирование',
+    },
+    {
+      href: 'calc',
+      title: 'Вычислительная математика',
+    },
+    {
+      href: 'calc-technics',
+      title: 'Вычислительная техника',
+    },
+    {
+      href: 'diffurs',
+      title: 'Интеграллы и дифференциальные уравнения',
+    },
+    {
+      href: 'pc-practice',
+      title: 'Компьютерный практикум',
+    },
+    {
+      href: 'course-work',
+      title: 'Курсовая работа',
+    },
+    {
+      href: 'os',
+      title: 'Операционные системы',
+    },
+    {
+      href: 'practice',
+      title: 'Практика',
+    },
+    {
+      href: 'programming',
+      title: 'Программирование',
+    },
+    {
+      href: 'modeling',
+      title: 'Технологии компьютерного моделирования',
+    },
+    {
+      href: 'physics',
+      title: 'Физика',
+    },
+    {
+      href: 'physics-conduct',
+      title: 'Физика полупроводников',
+    },
+  ];
 
   return (
     <>
@@ -65,6 +124,19 @@ export function SubjectList() {
           })}
           <div className={'w-full border-b-2 border-gray-600'} />
           {year3Subjects.map((item) => {
+            return (
+              <MenuItem
+                key={item.href}
+                as={Link}
+                href={item.href}
+                className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+              >
+                {item.title}
+              </MenuItem>
+            );
+          })}
+          <div className={'w-full border-b-2 border-gray-600'} />
+          {year2Subjects.map((item) => {
             return (
               <MenuItem
                 key={item.href}
