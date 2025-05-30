@@ -28,9 +28,9 @@ export default function Year4() {
           <Link
             key={href}
             href={href}
-            className="group relative block rounded-xl bg-gray-700 p-5 shadow-md transition hover:-translate-y-1 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-sky-500/70 focus:ring-offset-2"
+            className="group relative block rounded-none border-l-2 border-h1-color-from bg-aside-color p-5 no-underline shadow-md transition hover:-translate-y-1 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-sky-500/70 focus:ring-offset-2"
           >
-            <h3 className="text-lg font-semibold text-[--c-text-primary] transition-colors group-hover:text-white group-focus:text-white">
+            <h3 className="text-lg font-semibold text-[--c-text-primary] no-underline transition-colors group-hover:text-white group-focus:text-white">
               {title}
             </h3>
           </Link>
