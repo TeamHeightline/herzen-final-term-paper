@@ -36,6 +36,7 @@ export function SubjectList() {
     { href: '/year-3/packages-of-programs', title: 'Пакеты прикладных программ' },
     { href: '/year-3/apply-inform-tech', title: 'Прикладные информационные технологии' },
     { href: '/year-3/pro-translate', title: 'Профессиональный перевод научных текстов' },
+    { href: '/year-3/networks', title: 'Сетевые технологии' },
   ];
 
   return (
