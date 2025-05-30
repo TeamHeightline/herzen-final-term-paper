@@ -78,6 +78,13 @@ export function SubjectList() {
           >
             Информационные средства и технологии инженерных расчетов
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/personal"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Информационные технологии оценки персонала
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
