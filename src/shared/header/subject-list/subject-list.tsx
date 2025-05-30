@@ -35,6 +35,7 @@ export function SubjectList() {
     { href: '/year-3/e-learning-basics', title: 'Основы корпоративного электронного обучения' },
     { href: '/year-3/packages-of-programs', title: 'Пакеты прикладных программ' },
     { href: '/year-3/apply-inform-tech', title: 'Прикладные информационные технологии' },
+    { href: '/year-3/pro-translate', title: 'Профессиональный перевод научных текстов' },
   ];
 
   return (
