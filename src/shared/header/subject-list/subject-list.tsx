@@ -3,6 +3,26 @@ import Link from 'next/link';
 import { Fragment } from 'react';
 
 export function SubjectList() {
+  const subjects = [
+    { href: '/year-4', title: '4 курс' },
+    { href: '/year-4/course-work', title: 'Курсовая работа' },
+    { href: '/year-4/basics-of-data-science', title: 'Анализ данных и основы Data Science' },
+    { href: '/year-4/it-recruitment', title: 'IT рекрутмент' },
+    { href: '/year-4/practice-7-sem', title: 'Практика за 7 семестр' },
+    { href: '/year-4/reserch-project', title: 'Научно-исследовательский проект' },
+    { href: '/year-4/specification', title: 'Языки написания спецификаций' },
+    { href: '/year-4/english', title: 'Английский' },
+    { href: '/year-4/info-ingeneering', title: 'Инженерия знаний' },
+    {
+      href: '/year-4/engineering-calculations',
+      title: 'Информационные технологии инженерных расчётов',
+    },
+    { href: '/year-4/personal', title: 'ИТ оценки персонала' },
+    { href: '/year-4/libraries', title: 'Мировые инф. ресурсы и цифровые библиотеки' },
+    { href: '/year-4/programming', title: 'Программирование' },
+    { href: '/year-4/social-questions', title: 'Соц. и проф. вопросы информатики и ИТ' },
+  ];
+
   return (
     <>
       <Menu as="div" className={'relative'}>
@@ -15,104 +35,18 @@ export function SubjectList() {
         </MenuButton>
 
         <MenuItems className="absolute left-0 mt-2 w-72 origin-top-left rounded-lg border-none bg-gray-700 py-2 focus:outline-none">
-          <MenuItem
-            as={Link}
-            href="/year-4"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            4 курс
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/course-work"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Курсовая работа
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/basics-of-data-science"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Анализ данных и основы Data Science
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/it-recruitment"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            IT рекрутмент
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/practice-7-sem"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Практика за 7 семестр
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/reserch-project"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Научно-исследовательский проект
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/specification"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Языки написания спецификаций
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/english"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Английский
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/info-ingeneering"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Инженерия знаний
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/engineering-calculations"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Информационные средства и технологии инженерных расчетов
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/personal"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Информационные технологии оценки персонала
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/libraries"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Мировые информационные ресурсы и цифровые библиотеки
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/programming"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Программирование
-          </MenuItem>
-          <MenuItem
-            as={Link}
-            href="/year-4/social-questions"
-            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
-          >
-            Социальные и профессиональные вопросы информатики и ИТ
-          </MenuItem>
+          {subjects.map((item) => {
+            return (
+              <MenuItem
+                key={item.href}
+                as={Link}
+                href={item.href}
+                className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+              >
+                {item.title}
+              </MenuItem>
+            );
+          })}
         </MenuItems>
       </Menu>
     </>
