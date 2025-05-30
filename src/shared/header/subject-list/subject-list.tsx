@@ -20,7 +20,14 @@ export function SubjectList() {
             href="/year-4"
             className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
           >
-            4 семестр
+            4 курс
+          </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/course-work"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Курсовая работа
           </MenuItem>
           <MenuItem
             as={Link}
@@ -84,6 +91,13 @@ export function SubjectList() {
             className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
           >
             Информационные технологии оценки персонала
+          </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/libraries"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Мировые информационные ресурсы и цифровые библиотеки
           </MenuItem>
         </MenuItems>
       </Menu>
