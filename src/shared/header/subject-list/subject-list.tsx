@@ -25,6 +25,7 @@ export function SubjectList() {
 
   const year3Subjects = [
     { href: '/year-3', title: '3 курс' },
+    { href: '/year-3/course-work', title: 'Курсовая работа' },
     { href: '/year-3/business', title: 'Бизнес информатика' },
     { href: '/year-3/info-protection', title: 'Защита информации' },
     { href: '/year-3/graphics', title: 'Инженерная графика' },
