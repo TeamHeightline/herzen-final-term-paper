@@ -33,7 +33,7 @@ export default function SocialQuestions() {
       <h2 id={'lr2'}>Вариативная самостоятельная работа №5</h2>
       <embed
         className={'mt-4'}
-        src="/herzen-final-term-paper/files/year-4/social-questions/VSR 5.pd#toolbar=0f"
+        src="/herzen-final-term-paper/files/year-4/social-questions/VSR 5.pdf#toolbar=0"
         width="100%"
         height="700px"
       />
