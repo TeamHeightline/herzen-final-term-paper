@@ -32,7 +32,8 @@ export function SubjectList() {
     { href: '/year-3/it-in-languages', title: 'ИТ в иностранных языках' },
     { href: '/year-3/it-in-business-analytics', title: 'ИТ и системы бизнес-аналитики' },
     { href: '/year-3/compute-graphics', title: 'Компьютерная графика' },
-    { href: '/year-3/e-learning-basics', title: 'Основы корпоративного электронного обучения' },
+    { href: '/year-3/e-learning-basics', title: 'Основы корпоративного электронного обучения' }, //Пакеты прикладных программ
+    { href: '/year-3/packages-of-programs', title: 'Пакеты прикладных программ' },
   ];
 
   return (
