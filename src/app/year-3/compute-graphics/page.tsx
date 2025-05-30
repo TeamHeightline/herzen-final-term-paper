@@ -37,13 +37,6 @@ export default function ComputeGraphics() {
         width="100%"
         height="700px"
       />
-      <h2 id={'lr1'}>Практическая работа №6</h2>
-      <embed
-        className={'mt-4'}
-        src="/herzen-final-term-paper/files/year-3/compute-graphics/P 6.pdf"
-        width="100%"
-        height="700px"
-      />
       <h2 id={'lr1'}>Практическая работа №7</h2>
       <embed
         className={'mt-4'}
