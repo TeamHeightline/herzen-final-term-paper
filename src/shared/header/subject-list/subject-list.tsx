@@ -21,9 +21,13 @@ export function SubjectList() {
     { href: '/year-4/libraries', title: 'Мировые инф. ресурсы и цифровые библиотеки' },
     { href: '/year-4/programming', title: 'Программирование' },
     { href: '/year-4/social-questions', title: 'Соц. и проф. вопросы информатики и ИТ' },
+  ];
+
+  const year3Subjects = [
     { href: '/year-3', title: '3 курс' },
     { href: '/year-3/business', title: 'Бизнес информатика' },
     { href: '/year-3/info-protection', title: 'Защита информации' },
+    { href: '/year-3/graphics', title: 'Инженерная графика' },
   ];
 
   return (
@@ -37,8 +41,21 @@ export function SubjectList() {
           Предметы
         </MenuButton>
 
-        <MenuItems className="absolute left-0 mt-2 w-72 origin-top-left rounded-lg border-none bg-gray-700 py-2 focus:outline-none">
+        <MenuItems className="absolute left-0 mt-2 max-h-[75vh] w-72 origin-top-left overflow-scroll rounded-lg border-none bg-gray-700 py-2 focus:outline-none">
           {subjects.map((item) => {
+            return (
+              <MenuItem
+                key={item.href}
+                as={Link}
+                href={item.href}
+                className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+              >
+                {item.title}
+              </MenuItem>
+            );
+          })}
+          <div className={'w-full border-b-2 border-gray-600'} />
+          {year3Subjects.map((item) => {
             return (
               <MenuItem
                 key={item.href}
