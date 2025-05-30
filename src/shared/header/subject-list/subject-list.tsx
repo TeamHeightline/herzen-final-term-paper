@@ -21,6 +21,8 @@ export function SubjectList() {
     { href: '/year-4/libraries', title: 'Мировые инф. ресурсы и цифровые библиотеки' },
     { href: '/year-4/programming', title: 'Программирование' },
     { href: '/year-4/social-questions', title: 'Соц. и проф. вопросы информатики и ИТ' },
+    { href: '/year-3', title: '3 курс' },
+    { href: '/year-3/business', title: 'Бизнес информатика' },
   ];
 
   return (
