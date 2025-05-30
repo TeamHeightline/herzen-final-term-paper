@@ -99,6 +99,13 @@ export function SubjectList() {
           >
             Мировые информационные ресурсы и цифровые библиотеки
           </MenuItem>
+          <MenuItem
+            as={Link}
+            href="/year-4/programming"
+            className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+          >
+            Программирование
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>
