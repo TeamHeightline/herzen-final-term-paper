@@ -28,6 +28,7 @@ export function SubjectList() {
     { href: '/year-3/business', title: 'Бизнес информатика' },
     { href: '/year-3/info-protection', title: 'Защита информации' },
     { href: '/year-3/graphics', title: 'Инженерная графика' },
+    { href: '/year-3/it-in-languages', title: 'ИТ в иностранных языках' },
   ];
 
   return (
