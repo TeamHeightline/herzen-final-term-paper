@@ -30,6 +30,7 @@ export function SubjectList() {
     { href: '/year-3/graphics', title: 'Инженерная графика' },
     { href: '/year-3/it-in-languages', title: 'ИТ в иностранных языках' },
     { href: '/year-3/it-in-business-analytics', title: 'ИТ и системы бизнес-аналитики' },
+    { href: '/year-3/compute-graphics', title: 'Компьютерная графика' },
   ];
 
   return (
