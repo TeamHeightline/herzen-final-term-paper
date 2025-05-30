@@ -98,6 +98,78 @@ export function SubjectList() {
     },
   ];
 
+  const year1Subjects = [
+    { href: '/year-1', title: '1 курс' },
+    {
+      href: 'algoses',
+      title: 'Алгоритмы и решение задач',
+    },
+    {
+      href: 'analytics-geometry',
+      title: 'Аналитическая геометрия',
+    },
+    {
+      href: 'bzd',
+      title: 'Безопасность жизнедеятельности',
+    },
+    {
+      href: 'bzd',
+      title: 'Дискретные структуры и основы теории вероятности',
+    },
+    {
+      href: 'bzd',
+      title: 'Иностранный язык',
+    },
+    {
+      href: 'bzd',
+      title: 'Информатика',
+    },
+    {
+      href: 'bzd',
+      title: 'Информационные технологии',
+    },
+    {
+      href: 'bzd',
+      title: 'Информационные технологии в математике',
+    },
+    {
+      href: 'bzd',
+      title: 'Информационные технологии в физике',
+    },
+    {
+      href: 'bzd',
+      title: 'История',
+    },
+    {
+      href: 'bzd',
+      title: 'Курсовая работа',
+    },
+    {
+      href: 'bzd',
+      title: 'Линейная алгебра и теория матриц',
+    },
+    {
+      href: 'bzd',
+      title: 'Математический анализ',
+    },
+    {
+      href: 'bzd',
+      title: 'Основы компьютерной алгебры',
+    },
+    {
+      href: 'bzd',
+      title: 'Практика',
+    },
+    {
+      href: 'bzd',
+      title: 'Программирование',
+    },
+    {
+      href: 'bzd',
+      title: 'Философия',
+    },
+  ];
+
   return (
     <>
       <Menu as="div" className={'relative'}>
@@ -137,6 +209,19 @@ export function SubjectList() {
           })}
           <div className={'w-full border-b-2 border-gray-600'} />
           {year2Subjects.map((item) => {
+            return (
+              <MenuItem
+                key={item.href}
+                as={Link}
+                href={item.href}
+                className={'block px-4 py-2 no-underline hover:bg-gray-600 hover:text-white'}
+              >
+                {item.title}
+              </MenuItem>
+            );
+          })}
+          <div className={'w-full border-b-2 border-gray-600'} />
+          {year1Subjects.map((item) => {
             return (
               <MenuItem
                 key={item.href}
