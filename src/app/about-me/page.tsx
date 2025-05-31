@@ -33,6 +33,14 @@ export default function AboutMe() {
           <Carousel baseUrl={'/files/about-me/study-ways/articles/'} urlArray={['img.png']} />
         </ul>
       </div>
+      <h3>Проект "Деканат" для физкультуры в ГРПУ им. Герцена</h3>
+      <div>
+        Был одним из двух frontend-разработчиков. Разработали проект с нуля, довели до эксплуатации
+        <Carousel
+          baseUrl={'/files/about-me/herzen/'}
+          urlArray={['img.png', 'img_1.png', 'img_2.png']}
+        />
+      </div>
       <h2 id={'lr2'}>Достижения в коммерческой разработке</h2>
       <h3>West Engineering</h3>
       <div>
