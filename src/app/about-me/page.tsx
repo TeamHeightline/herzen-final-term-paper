@@ -1,3 +1,5 @@
+import { Carousel } from '@/shared/carousel';
+
 export default function AboutMe() {
   return (
     <>
@@ -5,16 +7,30 @@ export default function AboutMe() {
       <h2>Достижения в академической среде</h2>
       <h3>StudyWays</h3>
       <div>
-        Разработал платформу с нуля, был единственным разработчиком на проекте.
+        Разработал платформу с нуля, был главным разработчиком на проекте.
+        <Carousel
+          baseUrl={'/files/about-me/study-ways/'}
+          urlArray={['img.png', 'img_1.png', 'img_2.png', 'img_3.png', 'img_4.png', 'img_5.png']}
+        />
         <ul className={'ml-5 list-disc marker:text-sky-500'}>
           <li>
             Проект получил грант по программе стратегического академического лидерства
             «Приоритет-2030»
           </li>
+          <Carousel
+            baseUrl={'/files/about-me/study-ways/grant/'}
+            urlArray={['img.png', 'img_1.png']}
+          />
           <li>
             Члены команды были удостоены государственной премии Правительства Санкт-Петербурга в
             номинации «Развитие инновационной деятельности в образовательной организации».
           </li>
+          <Carousel
+            baseUrl={'/files/about-me/study-ways/prize/'}
+            urlArray={['img.png', 'img_1.png', 'img_2.png', 'img_3.png']}
+          />
+          <li>Стал соавтором 8 статей, посвященным StudyWays</li>
+          <Carousel baseUrl={'/files/about-me/study-ways/articles/'} urlArray={['img.png']} />
         </ul>
       </div>
       <h2 id={'lr2'}>Достижения в коммерческой разработке</h2>
